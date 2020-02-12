@@ -61,7 +61,7 @@ namespace chat_app
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseAngularCliServer(npmScript: "ng serve");
+                    spa.UseAngularCliServer(npmScript: "start");
                 }
             });
         }
